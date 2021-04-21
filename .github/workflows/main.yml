@@ -41,7 +41,7 @@ jobs:
         
       # Génération de la présentation
       - name: Darkslide
-        run: darkslide slides.md -d ./public/index.html
+        run: darkslide slides.md -i -d ./public/index.html
       - name: debug
         run: ls -R
 
