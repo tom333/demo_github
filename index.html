@@ -1453,7 +1453,7 @@ pre { background: #fdf6e3; color: #586e75; }
             </aside>
             
             <aside class="page_number">
-              1/7
+              1/9
             </aside>
           </footer>
         </div>
@@ -1482,7 +1482,7 @@ pre { background: #fdf6e3; color: #586e75; }
             </aside>
             
             <aside class="page_number">
-              2/7
+              2/9
             </aside>
           </footer>
         </div>
@@ -1513,7 +1513,7 @@ pre { background: #fdf6e3; color: #586e75; }
             </aside>
             
             <aside class="page_number">
-              3/7
+              3/9
             </aside>
           </footer>
         </div>
@@ -1547,7 +1547,7 @@ Dans cette optique, il a été choisi de publier le code sur github.</p>
             </aside>
             
             <aside class="page_number">
-              4/7
+              4/9
             </aside>
           </footer>
         </div>
@@ -1558,16 +1558,16 @@ Dans cette optique, il a été choisi de publier le code sur github.</p>
         <div class="slide slide-5">
           <div class="inner">
             
-            <header><h2>Fonctionnalités basiques / Gitlab</h2></header>
+            <header><h2>Présentation</h2></header>
             
             
-            <section><ul>
-<li>Sources</li>
-<li>Issues</li>
-<li>Pull Request</li>
-<li>Wiki</li>
-</ul>
-<p>Demo : <a href="https://github.com/tom333/demo_github">https://github.com/tom333/demo_github</a></p></section>
+            <section><p>Licorne fondée en 2008
+Racheté en 2018 par Microsoft pour 7,5 milliard de dollars</p>
+<ul>
+<li>plus de 56 million de développeurs</li>
+<li>plus de 3 million d'organisations</li>
+<li>plus de 100 million d'organisations</li>
+</ul></section>
             
           </div>
           <div class="presenter_notes">
@@ -1584,7 +1584,7 @@ Dans cette optique, il a été choisi de publier le code sur github.</p>
             </aside>
             
             <aside class="page_number">
-              5/7
+              5/9
             </aside>
           </footer>
         </div>
@@ -1595,13 +1595,22 @@ Dans cette optique, il a été choisi de publier le code sur github.</p>
         <div class="slide slide-6">
           <div class="inner">
             
-            <header><h2>Github actions / Gitlab webhook et jenkins</h2></header>
+            <header><h2>Fonctionnalités basiques / Gitlab</h2></header>
             
             
             <section><ul>
-<li><a href="https://github.com/marketplace?type=actions">https://github.com/marketplace?type=actions</a></li>
-<li>Example : <a href="https://github.com/tom333/demo_github/blob/main/.github/workflows/main.yml">https://github.com/tom333/demo_github/blob/main/.github/workflows/main.yml</a></li>
-</ul></section>
+<li>Sources</li>
+<li>Issues</li>
+<li>Pull Request</li>
+<li>Wiki</li>
+<li>Github pages</li>
+<li>Projet</li>
+<li>Organisation</li>
+</ul>
+<p>Demo : <a href="https://github.com/tom333/demo_github">https://github.com/tom333/demo_github</a>
+Exemple de PR : <a href="https://github.com/tom333/flask-op/pull/7">https://github.com/tom333/flask-op/pull/7</a>
+Exemple de gestion de projet : <a href="https://github.com/github/roadmap/projects/1">https://github.com/github/roadmap/projects/1</a>
+Exemple d'organisation : <a href="https://github.com/betagouv">https://github.com/betagouv</a></p></section>
             
           </div>
           <div class="presenter_notes">
@@ -1618,7 +1627,7 @@ Dans cette optique, il a été choisi de publier le code sur github.</p>
             </aside>
             
             <aside class="page_number">
-              6/7
+              6/9
             </aside>
           </footer>
         </div>
@@ -1629,15 +1638,108 @@ Dans cette optique, il a été choisi de publier le code sur github.</p>
         <div class="slide slide-7">
           <div class="inner">
             
+            <header><h2>Github actions / Gitlab webhook et jenkins</h2></header>
+            
+            
+            <section><ul>
+<li>Déclaration en yaml dans le code</li>
+<li>
+<p>Basée sur des containers</p>
+</li>
+<li>
+<p><a href="https://github.com/marketplace?type=actions">https://github.com/marketplace?type=actions</a></p>
+</li>
+<li>Example simple : <a href="https://github.com/tom333/demo_github/blob/main/.github/workflows/main.yml">https://github.com/tom333/demo_github/blob/main/.github/workflows/main.yml</a></li>
+<li>Exemple complexe : <a href="https://github.com/microsoft/vscode/actions/workflows/ci.yml">https://github.com/microsoft/vscode/actions/workflows/ci.yml</a></li>
+</ul></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            
+            <aside class="source">
+              Source: <a href="slides.md">slides.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              7/9
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-8">
+          <div class="inner">
+            
+            <header><h2>Livrables / Artifactory</h2></header>
+            
+            
+            <section><ul>
+<li>Release<ul>
+<li>livrable versionné et documenté</li>
+</ul>
+</li>
+<li>Package <ul>
+<li>Dépôts au format de livrables</li>
+<li>formats supporté : <ul>
+<li>Container</li>
+<li>npm</li>
+<li>maven</li>
+<li>NuGet</li>
+<li>RubyGems</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>.footnote: Formats à venir : <a href="https://github.com/github/roadmap/labels/packages">https://github.com/github/roadmap/labels/packages</a></p></section>
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            
+            <aside class="source">
+              Source: <a href="slides.md">slides.md</a>
+            </aside>
+            
+            <aside class="page_number">
+              8/9
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source: slides.md -->
+      <div class="slide-wrapper">
+        <div class="slide slide-9">
+          <div class="inner">
+            
             <header><h2>Intégrations</h2></header>
             
             
             <section><ul>
 <li>
-<p>gitpod : <a href="https://gitpod.io/#https://github.com/tom333/demo_github">https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod</a></p>
+<p>gitpod : <a href="https://gitpod.io/#https://github.com/tom333/demo_github">https://gitpod.io/#https://github.com/tom333/demo_github</a></p>
 </li>
 <li>
 <p><a href="https://github.com/marketplace">https://github.com/marketplace</a></p>
+</li>
+<li>
+<p><a href="https://github.com/conwnet/github1s">https://github.com/conwnet/github1s</a></p>
 </li>
 </ul></section>
             
@@ -1656,7 +1758,7 @@ Dans cette optique, il a été choisi de publier le code sur github.</p>
             </aside>
             
             <aside class="page_number">
-              7/7
+              9/9
             </aside>
           </footer>
         </div>
@@ -1704,20 +1806,32 @@ Dans cette optique, il a été choisi de publier le code sur github.</p>
         
         
         <tr id="toc-row-5" class="sub">
-          <th><a href="#slide:5">Fonctionnalités basiques / Gitlab</a></th>
+          <th><a href="#slide:5">Présentation</a></th>
           <td><a href="#slide:5">5</a></td>
         </tr>
         
         
         <tr id="toc-row-6" class="sub">
-          <th><a href="#slide:6">Github actions / Gitlab webhook et jenkins</a></th>
+          <th><a href="#slide:6">Fonctionnalités basiques / Gitlab</a></th>
           <td><a href="#slide:6">6</a></td>
         </tr>
         
         
         <tr id="toc-row-7" class="sub">
-          <th><a href="#slide:7">Intégrations</a></th>
+          <th><a href="#slide:7">Github actions / Gitlab webhook et jenkins</a></th>
           <td><a href="#slide:7">7</a></td>
+        </tr>
+        
+        
+        <tr id="toc-row-8" class="sub">
+          <th><a href="#slide:8">Livrables / Artifactory</a></th>
+          <td><a href="#slide:8">8</a></td>
+        </tr>
+        
+        
+        <tr id="toc-row-9" class="sub">
+          <th><a href="#slide:9">Intégrations</a></th>
+          <td><a href="#slide:9">9</a></td>
         </tr>
         
         
