@@ -38,6 +38,10 @@ jobs:
       # Installation des dépendances
       - name: pip install
         run: python -m pip install darkslide
+        
+      # Génération de la présentation
+      - name: Darkslide
+        run: darkslide slides.md
 
       # Deploy the book's HTML to gh-pages branch
       - name: GitHub Pages action
