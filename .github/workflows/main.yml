@@ -42,6 +42,8 @@ jobs:
       # Génération de la présentation
       - name: Darkslide
         run: darkslide slides.md
+      - name: debug
+        run: ls -R
 
       # Deploy the book's HTML to gh-pages branch
       - name: GitHub Pages action
