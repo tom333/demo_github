@@ -42,13 +42,14 @@ Racheté en 2018 par Microsoft pour 7,5 milliard de dollars
 ---
 ## Fonctionnalités basiques / Gitlab
 
-- Sources
-- Issues
-- Pull Request
-- Wiki
-- Github pages
-- Projet
-- Organisation
+| Sources | Github pages |
+| ---  | --- |
+| **Issues**      | **Projet** |
+| **Pull Request**          | **Organisation** |
+| **Wiki** |     ...   |
+
+
+
 
 Demo : [https://github.com/tom333/demo_github](https://github.com/tom333/demo_github)
 
