@@ -5,6 +5,7 @@
 ## Sommaire
 
 ---
+<<<<<<< HEAD
  
 ## Disclaimer
 
@@ -24,10 +25,15 @@ Cette présentation ne concerne donc que les projets open source. Les projets pr
 
 ---
 ## Fonctionnalités basiques / Gitlab
+=======
+
+## Fonctionnalités basiques
+>>>>>>> d353fab68275477727acafe30964ef515c9a5893
 
 - Sources
 - Issues
 - Pull Request
+<<<<<<< HEAD
 - Wiki
 
 Demo : [https://github.com/tom333/demo_github](https://github.com/tom333/demo_github)
@@ -37,11 +43,24 @@ Demo : [https://github.com/tom333/demo_github](https://github.com/tom333/demo_gi
 
 - [https://github.com/marketplace?type=actions](https://github.com/marketplace?type=actions)
 - Example : [https://github.com/tom333/demo_github/blob/main/.github/workflows/main.yml](https://github.com/tom333/demo_github/blob/main/.github/workflows/main.yml)
+=======
+
+---
+
+## Github actions
+
+- [https://github.com/marketplace?type=actions]
+- Example : [https://github.com/tom333/demo_github/blob/main/.github/workflows/main.yml]
+>>>>>>> d353fab68275477727acafe30964ef515c9a5893
 
 --- 
 ## Intégrations
 
+<<<<<<< HEAD
 - gitpod : [https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)
 
 - [https://github.com/marketplace](https://github.com/marketplace)
 
+=======
+- gitpod : [https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod]
+>>>>>>> d353fab68275477727acafe30964ef515c9a5893
