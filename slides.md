@@ -33,6 +33,7 @@ Cette présentation ne concerne donc que les projets open source. Les projets pr
 ## Présentation
 
 Licorne fondée en 2008
+
 Racheté en 2018 par Microsoft pour 7,5 milliard de dollars
 
 - plus de 56 million de développeurs
