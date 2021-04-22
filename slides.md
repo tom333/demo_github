@@ -78,7 +78,12 @@ Racheté en 2018 par Microsoft pour 7,5 milliard de dollars
     - livrable versionné et documenté
 - Package 
     - Dépôts au format de livrables
-    - formats supportés : Container, npm, maven, NuGet, RubyGems
+    - formats supportés : 
+        - Container
+        - npm
+        - maven
+        - NuGet
+        - RubyGems
 
 ###### Formats à venir : [https://github.com/github/roadmap/labels/packages](https://github.com/github/roadmap/labels/packages)
 
