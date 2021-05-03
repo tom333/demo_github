@@ -36,9 +36,9 @@ Licorne fondée en 2008
 
 Racheté en 2018 par Microsoft pour 7,5 milliard de dollars
 
-- plus de 56 million de développeurs
-- plus de 3 million d'organisations
-- plus de 100 million d'organisations
+- plus de 56 millions de développeurs
+- plus de 3 millions d'organisations
+- plus de 200 millions de dépôts
 
 ---
 ## Fonctionnalités basiques / Gitlab
