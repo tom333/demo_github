@@ -15,9 +15,7 @@
  
 ## Disclaimer
 
-Je ne suis pas un expert,
-
-je ne présente que mon expérience personnelle
+Je ne suis pas un expert, je ne présente que mon expérience personnelle
 
 --- 
 
